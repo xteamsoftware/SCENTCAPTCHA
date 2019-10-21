@@ -7081,7 +7081,7 @@ c_classServerGetImage.prototype.p_Get=function(t__pilot){
 	}
 	this.m_post_req=c_HttpRequest.m_new2.call(new c_HttpRequest,"GET",t_data,(this));
 	this.m_post_req.p_SetHeader("Content-Type","application/x-www-form-urlencoded");
-	this.m_post_req.p_SetHeader("Authorization","Basic c2NlbnQtcmVhZG9ubHk6c2NlbnQ=");
+	this.m_post_req.p_SetHeader("Authorization",bb_server_kAUTH_BASIC);
 	this.m_post_req.p_Send();
 	this.p_Reset();
 	this.m_bSended=true;
@@ -10113,6 +10113,7 @@ var bb_game_currPois=0;
 var bb_game_currCampaign=0;
 var bb_game_inputImageIDStr="";
 var bb_game_defineCampaign="";
+var bb_server_kAUTH_BASIC="";
 var bb_game_userIDSelected=0;
 var bb_game_userNickName="";
 var bb_game_angleRotation=0;
@@ -17414,7 +17415,7 @@ function bbInit(){
 	bb_game_selectedTAGS=c_structItems.m_new.call(new c_structItems,null,"");
 	bb_game_originalTAGS=c_structItems.m_new.call(new c_structItems,null,"");
 	bb_game_cSERVER=c_classServer.m_new.call(new c_classServer);
-	bb_server_kSERVER_NAME="https://www.xteamsoftware.com/scent/functions/";
+	bb_server_kSERVER_NAME="";
 	bb_asyncevent__sources=c_Stack7.m_new.call(new c_Stack7);
 	bb_game_cRENDER_HELPER=c_classRender_Helper.m_new.call(new c_classRender_Helper);
 	bb_game_cRENDER_PROFILE=c_classRender_Profile.m_new.call(new c_classRender_Profile);
@@ -17448,6 +17449,7 @@ function bbInit(){
 	bb_game_currCampaign=0;
 	bb_game_inputImageIDStr="";
 	bb_game_defineCampaign="";
+	bb_server_kAUTH_BASIC="";
 	bb_game_userIDSelected=0;
 	bb_game_userNickName="";
 	bb_game_angleRotation=0;
