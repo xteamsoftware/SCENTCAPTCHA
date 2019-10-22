@@ -1,7 +1,7 @@
 
-Scent Collaborate allows users to train and improve the Scent automated tools simply by browsing existing images and labelling them. Teaching the tools to identify pastures, forests, river banks, buildings, paved areas etc. will allow for more accurate mapping of the environment, which in turn will help predict and prevent flooding and other natural disasters.
+Scent Captcha allows users to train and improve the Scent automated tools simply by browsing existing images and labelling them. Teaching the tools to identify pastures, forests, river banks, buildings, paved areas etc. will allow for more accurate mapping of the environment, which in turn will help predict and prevent flooding and other natural disasters.
 
-The SCENT Collaborate application, can be easily modified/adapted to support different projects or create new tool for the SCENT Project. 
+The SCENT Captcha application, can be easily modified/adapted to support different projects or create new tool for the SCENT Project. 
 
 WARNING. This project is for educational purposes, there are no authorization credentials for linking with other SCENT components.
 
